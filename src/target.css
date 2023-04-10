@@ -1,3 +1,78 @@
 .target{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 3, 27);
+    padding: 7px;
+    border-radius: 10px;
+    display: flex;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 5px;
+
+
+}
+.target_child{
+    padding-top: 2px;
+}
+.target_child:first-child{
+    padding: 0px;
+    color: rgb(183, 204, 201);
+    margin-right: 7px;
+    font-size: 10px;
+    margin-top: 6px;
+    color: rgb(153, 152, 150);
+}
+.icon{
+    font-size: 1.4em;
+    margin: 0px;
+    padding: 0px;
+}
+button{
+    font-size: 12px;
+    height: 1.8em;
+    border-radius: 10px;
+    border: none;
+    margin-right: 3px;
+    color: rgb(17, 122, 219);
+    background-color: rgba(9, 26, 83, 0.671);
+}
+button:hover{
+    background-color: #2f81f7;
+    color: white;
+    cursor: pointer;
+}
+a{
+    color: rgb(32, 96, 194);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.span_circle{
+    display: inline-block;
+    border: solid white 1px;
+    border-radius: 50%;
+    width: 9px;    
+    height: 9px;
+    background-color: rgb(245, 136, 136);
+    margin-right: 2px;
+}
+.span_in{
+    font-size: 12px;
+    margin-top: 2px;
+    margin-right: 20px;
+    color: rgb(119, 121, 115);
+}
+.ult{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content: left;
+}
+.mid{
+    margin: 5px auto;
+
+    padding: 0px;
+}
+.mid p{
+    margin: 0px;
 }
