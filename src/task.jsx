@@ -2,13 +2,11 @@ import "./task.css"
 function Task({options}){
     return (
         <div className="task">
-            <ul>
             {
                 options.map((cont, ind)=>{
-                    return <li key={ind}><span>{cont}</span></li>
+                    return <a key={ind} className="task_li" href="#"><span className="title">{cont.title}</span><span className="count">{cont.count}</span></a>
                 })
             }
-            </ul>
         </div>
     )
 }
